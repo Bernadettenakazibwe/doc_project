@@ -224,19 +224,24 @@ export default function Navbar({navDark, manuClass,containerClass}){
                         <li className={`${["", "index","index-two", "index-three"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
                             <Link to="#">Home</Link><span className="menu-arrow"></span>
                             <ul className="submenu">
-                                <li className={manu === "index" || "" ? "active" : ""}><Link to="/index" className="sub-menu-item">Index One</Link></li>
-                                <li className={manu === "index-two" ? "active" : ""}><Link to="/index-two" className="sub-menu-item">Index Two</Link></li>
-                                <li className={manu === "index-three" ? "active" : ""}><Link to="/index-three" className="sub-menu-item">Index Three</Link></li>
+                                <li className={manu === "index" || "" ? "active" : ""}><Link to="/index" className="sub-menu-item">Home</Link></li>
+                                {/*<li className={manu === "index-two" ? "active" : ""}><Link to="/index-two" className="sub-menu-item">index-two</Link></li> 
+                                <li className={manu === "index-three" ? "active" : ""}><Link to="/index-three" className="sub-menu-item">index-three</Link></li>   */}
+                                <li className={manu === "index-three" ? "active" : ""}><Link to="/aboutus" className="sub-menu-item">About Us</Link></li>
+                                <li className={manu === "index-two" ? "active" : ""}><Link to="/departments" className="sub-menu-item">Departments</Link></li> 
+
                             </ul>
                         </li>
 
                         <li className={`${["doctor-dashboard", "doctor-appointment","patient-list", "doctor-schedule","invoices","patient-review","doctor-messages","doctor-profile","doctor-profile-setting","doctor-chat","login","signup","forgot-password","doctor-team-one","doctor-team-two","doctor-team-three"].includes(manu)? "active" : ""} has-submenu parent-parent-menu-item`}>
                             <Link to="#">Doctors</Link><span className="menu-arrow"></span>
                             <ul className="submenu">
+                                
+                                <li className={manu === "doctor-team-one" ? "active" : ""}><Link to="/doctor-team-one" className="sub-menu-item">Our Team</Link></li>
                                 <li className={`${["doctor-dashboard", "doctor-appointment","patient-list", "doctor-schedule","invoices","patient-review","doctor-messages","doctor-profile","doctor-profile-setting","doctor-chat","login","signup","forgot-password"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
                                     <Link to="#" className="menu-item"> Dashboard </Link><span className="submenu-arrow"></span>
                                     <ul className="submenu">
-                                        <li className={manu === "doctor-dashboard" ? "active" : ""}><Link to="/doctor-dashboard" className="sub-menu-item">Dashboard</Link></li>
+                                        <li className={manu === "doctor-dashboard" ? "active" : ""}><Link to="/doctor-dashboard" className="sub-menu-item">Resources for Our Doctors</Link></li>
                                         <li className={manu === "doctor-appointment" ? "active" : ""}><Link to="/doctor-appointment" className="sub-menu-item">Appointment</Link></li>
                                         <li className={manu === "patient-list" ? "active" : ""}><Link to="/patient-list" className="sub-menu-item">Patients</Link></li>
                                         <li className={manu === "doctor-schedule" ? "active" : ""}><Link to="/doctor-schedule" className="sub-menu-item">Schedule Timing</Link></li>
@@ -251,9 +256,10 @@ export default function Navbar({navDark, manuClass,containerClass}){
                                         <li  className={manu === "forgot-password" ? "active" : ""}><Link to="/forgot-password" className="sub-menu-item">Forgot Password</Link></li>
                                     </ul>
                                 </li>
-                                <li className={manu === "doctor-team-one" ? "active" : ""}><Link to="/doctor-team-one" className="sub-menu-item">Doctors One</Link></li>
-                                <li className={manu === "doctor-team-two" ? "active" : ""}><Link to="/doctor-team-two" className="sub-menu-item">Doctors Two</Link></li>
+                                <li className={manu === "doctor-team-one" ? "active" : ""}><Link to="/doctor-team-one" className="sub-menu-item">Careers</Link></li>
+                               { /* <li className={manu === "doctor-team-two" ? "active" : ""}><Link to="/doctor-team-two" className="sub-menu-item">Doctors Two</Link></li>
                                 <li className={manu === "doctor-team-three" ? "active" : ""}><Link to="/doctor-team-three" className="sub-menu-item">Doctors Three</Link></li>
+                                 */}
                             </ul>
                         </li>
 

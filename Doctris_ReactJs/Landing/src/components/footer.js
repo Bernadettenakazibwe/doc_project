@@ -16,13 +16,13 @@ export default function Footer(){
                         <Link to="#" className="logo-footer">
                             <img src={logoLight} height="22" alt=""/>
                         </Link>
-                        <p className="mt-4 me-xl-5">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
+                        <p className="mt-4 me-xl-5">Find and book an appointment with a doctor from the your mobile deveice. Have the doctor in your home to solve your health problems privately and effeciently.</p>
                     </div>
 
                     <div className="col-xl-7 col-lg-8 col-md-12">
                         <div className="row">
                             <div className="col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
-                                <h5 className="footer-head">Company</h5>
+                                <h5 className="footer-head">New Health Order</h5>
                                 <ul className="list-unstyled footer-list mt-4">
                                     <li><Link to="/aboutus" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> About us</Link></li>
                                     <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Services</Link></li>
@@ -36,13 +36,13 @@ export default function Footer(){
                             <div className="col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
                                 <h5 className="footer-head">Departments</h5>
                                 <ul className="list-unstyled footer-list mt-4">
-                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Eye Care</Link></li>
-                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Psychotherapy</Link></li>
-                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Dental Care</Link></li>
-                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Orthopedic</Link></li>
-                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Cardiology</Link></li>
-                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Gynecology</Link></li>
-                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Neurology</Link></li>
+                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i>Blood Screening</Link></li>
+                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Physical checkup</Link></li>
+                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Laboratory Test</Link></li>
+                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Prescription</Link></li>
+                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Medical Advice</Link></li>
+                                    <li><Link to="/departments" className="text-foot"><i className="mdi mdi-chevron-right me-1"></i> Emergencies</Link></li>
+
                                 </ul>
                             </div>
                     
@@ -51,12 +51,12 @@ export default function Footer(){
                                 <ul className="list-unstyled footer-list mt-4">
                                     <li className="d-flex align-items-center">
                                         <FiMail className="fea icon-sm text-foot align-middle"/>
-                                        <Link to="mailto:contact@example.com" className="text-foot ms-2">contact@example.com</Link>
+                                        <Link to="mailto:contact@example.com" className="text-foot ms-2">bernadettecarolyne@gmail.com</Link>
                                     </li>
 
                                     <li className="d-flex align-items-center">
                                         <FiPhone className="fea icon-sm text-foot align-middle"/>
-                                        <Link to="tel:+152534-468-854" className="text-foot ms-2">+152 534-468-854</Link>
+                                        <Link to="tel:+152534-468-854" className="text-foot ms-2">+491778889971</Link>
                                     </li>
 
                                     <li className="d-flex align-items-center">
@@ -82,7 +82,7 @@ export default function Footer(){
                     <div className="row align-items-center">
                         <div className="col-sm-6">
                             <div className="text-sm-start text-center">
-                                <p className="mb-0">{new Date().getFullYear()}© Doctris. Design & Develop with <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                                <p className="mb-0">{new Date().getFullYear()}© New Health Order.  Your Health lives matter most <i className="mdi mdi-heart text-danger"></i> by <Link to="https://shreethemes.in/" target="_blank" className="text-reset">BYBP Dvelopers</Link>.</p>
                             </div>
                         </div>
 

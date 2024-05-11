@@ -17,13 +17,13 @@ export default function DoctorTeamOne(){
                 <div className="row mt-5 justify-content-center">
                     <div className="col-12">
                         <div className="section-title text-center">
-                            <h3 className="sub-title mb-4">Doctors team</h3>
-                            <p className="para-desc mx-auto text-muted">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
+                            <h3 className="sub-title mb-4">Our Doctors team</h3>
+                            <p className="para-desc mx-auto text-muted">Below find our team of skilled Doctors</p>
                         
                             <nav aria-label="breadcrumb" className="d-inline-block mt-3">
                                 <ul className="breadcrumb bg-transparent mb-0">
-                                    <li className="breadcrumb-item"><Link to="/">Doctris</Link></li>
-                                    <li className="breadcrumb-item"><Link to="#">Doctors</Link></li>
+                                    <li className="breadcrumb-item"><Link to="/">New Health Order</Link></li>
+                                    {/*<li className="breadcrumb-item"><Link to="#">Doctors</Link></li> */}
                                     <li className="breadcrumb-item active" aria-current="page">Team one</li>
                                 </ul>
                             </nav>

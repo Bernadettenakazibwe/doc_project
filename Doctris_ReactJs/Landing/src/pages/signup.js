@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import bg1 from '../assets/images/bg/bg-lines-one.png'
 import logoDark from '../assets/images/logo-dark.png'
+import login from '../pages/login.js'
 
 import {FiHome,SlSocialGoogle } from '../assets/icons/vander'
 import {FaSquareFacebook} from 'react-icons/fa6'
@@ -59,7 +60,7 @@ export default function Signup(){
                                         </div>
                                         <div className="col-md-12">
                                             <div className="d-grid">
-                                                <button className="btn btn-primary">Register</button>
+                                                <button className="btn btn-primary"> <Link to="/login" className="btn btn-primary text-dark fw-bold">Register</Link></button>
                                             </div>
                                         </div>
 
@@ -67,6 +68,7 @@ export default function Signup(){
                                             <h6 className="text-muted">Or</h6>
                                         </div>
                                         
+                                        {/*
                                         <div className="col-6 mt-3">
                                             <div className="d-grid">
                                                 <Link to="#" className="btn btn-soft-primary"><FaSquareFacebook className="mb-0"/> Facebook</Link>
@@ -78,6 +80,7 @@ export default function Signup(){
                                                 <Link to="#" className="btn btn-soft-primary"><SlSocialGoogle className="mb-0"/> Google</Link>
                                             </div>
                                         </div>
+                                        */}
 
                                         <div className="mx-auto">
                                             <p className="mb-0 mt-3"><small className="text-dark me-2">Already have an account ?</small> <Link to="/login" className="text-dark fw-bold">Sign in</Link></p>

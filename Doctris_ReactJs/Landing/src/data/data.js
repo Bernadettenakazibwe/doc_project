@@ -75,59 +75,36 @@ import product18 from '../assets/images/pharmacy/shop/facewash.jpg'
 export const medicalServices = [
     {
         icon:RiEyeFill,
-        title:'Eye Care',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
+        title:'Blood Screening',
+        desc:'Get your bllod screened whenever you want from your home.'
     },
     {
         icon:RiPsychotherapyFill,
-        title:'Psychotherapy',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
+        title:'Physical Checkup',
+        desc:'Get a body physical checkup from our experienced doctors from your sitting room.'
     },
     {
         icon:RiStethoscopeFill,
-        title:'Primary Care',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
+        title:'Laboratory test',
+        desc:'Allow our experienced medical laboratory technician to pay a visit at your home to otain your bllod sample for bllod test in order to know your health standard.'
     },
     {
         icon:RiCapsuleFill,
-        title:'Dental Care',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
+        title:'Prescription',
+        desc:"Get a a prescription after our doctor's diagnosis and checkup ."
     },
     {
         icon:RiMicroscopeFill,
-        title:'Orthopedic',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
+        title:'Medical Advice',
+        desc:'Get medical advice from our doctors through one to one contact from wherever you are.'
     },
     {
         icon:RiPulseFill,
-        title:'Cardiology',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
+        title:'Emergencies',
+        desc:'Contact us in case an emergency.'
     },
-    {
-        icon:RiEmpathizeFill,
-        title:'Gynecology',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
-    },
-    {
-        icon:RiMindMap,
-        title:'Neurology',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
-    },
-    {
-        icon:RiMentalHealthLine,
-        title:'Dermatologists',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
-    },
-    {
-        icon:RiAppleLine,
-        title:'Nutritionists',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
-    },
-    {
-        icon:RiInfraredThermometerLine,
-        title:'Physical Therapists',
-        desc:'There is now an abundance of readable dummy texts required purely to fill a space.'
-    },
+    
+   
 ]
 
 export const doctorData = [
@@ -141,60 +118,30 @@ export const doctorData = [
     },
     {
         image: dr2,
-        name: 'Cristino Murphy',
-        speciality: 'M.B.B.S, Gynecologist',
-        location: '63, PG Shustoke, UK',
+        name: 'Caroline Nalukwago',
+        speciality: 'M.B.B.S Laboratory Technician',
+        location: 'UG',
         time: 'Mon: 2:00PM - 6:00PM',
         charges: '$ 75 USD / Visit' 
     },
     {
         image: dr3,
-        name: 'Alia Reddy',
-        speciality: 'M.B.B.S, Psychotherapist',
-        location: '63, PG Shustoke, UK',
+        name: 'Aaron Chris',
+        speciality: 'Optometrist',
+        location: 'UG',
         time: 'Mon: 2:00PM - 6:00PM',
         charges: '$ 75 USD / Visit' 
     },
     {
         image: dr4,
-        name: 'Toni Kovar',
-        speciality: 'M.B.B.S, Orthopedic',
-        location: '63, PG Shustoke, UK',
+        name: 'Martin Luswata',
+        speciality: 'Optometrist',
+        location: 'UG',
         time: 'Mon: 2:00PM - 6:00PM',
         charges: '$ 75 USD / Visit' 
     },
-    {
-        image: dr5,
-        name: 'Jessica McFarlane',
-        speciality: 'M.B.B.S, Dentist',
-        location: '63, PG Shustoke, UK',
-        time: 'Mon: 2:00PM - 6:00PM',
-        charges: '$ 75 USD / Visit' 
-    },
-    {
-        image: dr6,
-        name: 'Elsie Sherman',
-        speciality: 'Elsie Sherman',
-        location: '63, PG Shustoke, UK',
-        time: 'Mon: 2:00PM - 6:00PM',
-        charges: '$ 75 USD / Visit' 
-    },
-    {
-        image: dr7,
-        name: 'Bertha Magers',
-        speciality: 'M.B.B.S, Urologist',
-        location: '63, PG Shustoke, UK',
-        time: 'Mon: 2:00PM - 6:00PM',
-        charges: '$ 75 USD / Visit' 
-    },
-    {
-        image: dr8,
-        name: 'Louis Batey',
-        speciality: 'M.B.B.S, Neurologist',
-        location: '63, PG Shustoke, UK',
-        time: 'Mon: 2:00PM - 6:00PM',
-        charges: '$ 75 USD / Visit' 
-    },
+ 
+   
 ]
 
 export const counterData = [

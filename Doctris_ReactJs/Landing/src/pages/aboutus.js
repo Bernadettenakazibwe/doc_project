@@ -27,7 +27,7 @@ export default function AboutUs(){
                             
                                 <nav aria-label="breadcrumb" className="d-inline-block mt-3">
                                     <ul className="breadcrumb bg-light rounded mb-0 py-1 px-2">
-                                        <li className="breadcrumb-item"><Link to="/">Doctris</Link></li>
+                                        <li className="breadcrumb-item"><Link to="/">New Health Order</Link></li>
                                         <li className="breadcrumb-item active" aria-current="page">About us</li>
                                     </ul>
                                 </nav>
@@ -52,8 +52,8 @@ export default function AboutUs(){
                     <div className="col-lg-7 col-md-6 mt-4 mt-lg-0 pt- pt-lg-0">
                         <div className="ms-lg-4">
                             <div className="section-title me-lg-5">
-                                <span className="badge rounded-pill bg-soft-primary">About Doctris</span>
-                                <h4 className="title mt-3 mb-4">Good Services And Better <br/> Health By Our Specialists</h4>
+                                <span className="badge rounded-pill bg-soft-primary">About New Health Order</span>
+                                <h4 className="title mt-3 mb-4">Good  Services And Better <br/> Health By Our Specialists</h4>
                                 <p className="para-desc text-muted">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
                                 <p className="para-desc text-muted">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin. It contains a series of real Latin words.</p>
                                 <div className="mt-4">

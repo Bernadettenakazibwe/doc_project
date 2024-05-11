@@ -28,8 +28,9 @@ export default function Index(){
                     <div className="col-12">
                         <div className="heading-title">
                             <img src={logoIcon} height="50" alt=""/>
-                            <h4 className="display-4 fw-bold text-white title-dark mt-3 mb-4">Meet The <br/> Best Doctor</h4>
-                            <p className="para-desc text-white-50 mb-0">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
+                            <h4 className="display-4 fw-bold text-white title-dark mt-3 mb-4">Meet The <br/> Best Doctors</h4>
+                            <p className="para-desc text-white-50 mb-0">Great doctor if you or your family member need emergency assiatance, physical assistance, laboratory just from the comfort 
+                            of your home.</p>
                             
                             <div className="mt-4 pt-2">
                                 <Link to="/booking-appointment" className="btn btn-primary">Make Appointment</Link>
@@ -42,7 +43,7 @@ export default function Index(){
         </section>
 
         <section className="section">
-            <FeatureOne/>
+            
 
             <div className="container mt-100 mt-60">
                 <div className="row align-items-center">
@@ -52,8 +53,8 @@ export default function Index(){
                         <div className="ms-lg-4">
                             <div className="section-title">
                                 <h4 className="title mb-4">About Our Treatments</h4>
-                                <p className="text-muted para-desc">Great doctor if you need your family member to get effective immediate assistance, examination, emergency treatment or a simple consultation. Thank you.</p>
-                                <p className="text-muted para-desc mb-0">The most well-known dummy text is the 'Lorem Ipsum', which is said to have originated in the 16th century. Lorem Ipsum is composed in a pseudo-Latin language which more or less corresponds to 'proper' Latin. It contains a series of real Latin words.</p>
+                                <p className="text-muted para-desc">We offer simple consultations, laboratory tests, bllod screening, simple physical chckups just from the comfort of your home. Thank you.</p>
+                                <p className="text-muted para-desc mb-0">Our role is to bring health care to you at your doorstep.</p>
                             </div>
 
                             <div className="mt-4">
@@ -70,7 +71,7 @@ export default function Index(){
                         <div className="section-title mb-4 pb-2 text-center">
                             <span className="badge rounded-pill bg-soft-primary mb-3">Departments</span>
                             <h4 className="title mb-4">Our Medical Services</h4>
-                            <p className="text-muted mx-auto para-desc mb-0">Great doctor if you need your family member to get effective immediate assistance, emergency treatment or a simple consultation.</p>
+                            <p className="text-muted mx-auto para-desc mb-0">Get effective immediate assistance, emergency treatment, a simple consultation laboratory tests, blood sreening and special medical advice from our Doctors.</p>
                         </div>
                     </div>
                 </div>
@@ -97,8 +98,11 @@ export default function Index(){
             </div>
         </section>
 
-        <DrTimeTable/>
+        {/* <DrTimeTable/> */}
 
+
+        
+{/*
         <section className="section">
             <div className="container">
                 <div className="row justify-content-center">
@@ -212,6 +216,8 @@ export default function Index(){
                 </div>
             </div>
         </section>
+
+                */}
         <Footer/>
         <ScrollTop/>
         </>
