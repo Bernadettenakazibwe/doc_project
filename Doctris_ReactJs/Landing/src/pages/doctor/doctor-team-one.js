@@ -24,7 +24,7 @@ export default function DoctorTeamOne(){
                                 <ul className="breadcrumb bg-transparent mb-0">
                                     <li className="breadcrumb-item"><Link to="/">New Health Order</Link></li>
                                     {/*<li className="breadcrumb-item"><Link to="#">Doctors</Link></li> */}
-                                    <li className="breadcrumb-item active" aria-current="page">Team one</li>
+                                    <li className="breadcrumb-item active" aria-current="page">Our Team</li>
                                 </ul>
                             </nav>
                         </div>

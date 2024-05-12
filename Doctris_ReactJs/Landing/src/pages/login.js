@@ -52,7 +52,7 @@ export default function Login(){
                                         </div>
                                         <div className="col-lg-12 mb-0">
                                             <div className="d-grid">
-                                                <button className="btn btn-primary">Sign in</button>
+                                                <Link to="/signup" className="text-dark fw-bold"><button className="btn btn-primary">Sign in</button></Link>
                                             </div>
                                         </div>
 
