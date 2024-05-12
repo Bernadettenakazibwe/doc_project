@@ -60,7 +60,7 @@ export default function Signup(){
                                         </div>
                                         <div className="col-md-12">
                                             <div className="d-grid">
-                                                <button className="btn btn-primary"> <Link to="/login" className="btn btn-primary text-dark fw-bold">Register</Link></button>
+                                            <Link to="/login" className="btn btn-primary text-dark fw-bold"><button className="btn btn-primary"> Register</button></Link>
                                             </div>
                                         </div>
 
