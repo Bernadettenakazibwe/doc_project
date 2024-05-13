@@ -238,7 +238,8 @@ export default function Navbar({navDark, manuClass,containerClass}){
                             <ul className="submenu">
                                 
                                 <li className={manu === "doctor-team-one" ? "active" : ""}><Link to="/doctor-team-one" className="sub-menu-item">Our Team</Link></li>
-                                <li className={`${["doctor-dashboard", "doctor-appointment","patient-list", "doctor-schedule","invoices","patient-review","doctor-messages","doctor-profile","doctor-profile-setting","doctor-chat","login","signup","forgot-password"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
+                                <li className={manu === "login" ? "active" : ""}><Link to="/login" className="sub-menu-item">Login</Link></li>
+                               {/* <li className={`${["doctor-dashboard", "doctor-appointment","patient-list", "doctor-schedule","invoices","patient-review","doctor-messages","doctor-profile","doctor-profile-setting","doctor-chat","login","signup","forgot-password"].includes(manu)? "active" : ""} has-submenu parent-menu-item`}>
                                     <Link to="#" className="menu-item"> Dashboard </Link><span className="submenu-arrow"></span>
                                     <ul className="submenu">
                                         <li className={manu === "doctor-dashboard" ? "active" : ""}><Link to="/doctor-dashboard" className="sub-menu-item">Resources for Our Doctors</Link></li>
@@ -256,6 +257,7 @@ export default function Navbar({navDark, manuClass,containerClass}){
                                         <li  className={manu === "forgot-password" ? "active" : ""}><Link to="/forgot-password" className="sub-menu-item">Forgot Password</Link></li>
                                     </ul>
                                 </li>
+                            */}
                                 <li className={manu === "doctor-team-one" ? "active" : ""}><Link to="/doctor-team-one" className="sub-menu-item">Careers</Link></li>
                                { /* <li className={manu === "doctor-team-two" ? "active" : ""}><Link to="/doctor-team-two" className="sub-menu-item">Doctors Two</Link></li>
                                 <li className={manu === "doctor-team-three" ? "active" : ""}><Link to="/doctor-team-three" className="sub-menu-item">Doctors Three</Link></li>

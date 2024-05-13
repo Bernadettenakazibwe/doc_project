@@ -52,14 +52,15 @@ export default function Login(){
                                         </div>
                                         <div className="col-lg-12 mb-0">
                                             <div className="d-grid">
-                                                <Link to="/signup" className="text-dark fw-bold"><button className="btn btn-primary">Sign in</button></Link>
+                                                <Link to="/doctor-dashboard" className="text-dark fw-bold"><button className="btn btn-primary">Sign in</button></Link>
                                             </div>
                                         </div>
+                                        { /* 
 
                                         <div className="col-lg-12 mt-3 text-center">
                                             <h6 className="text-muted">Or</h6>
                                         </div>
-                                        
+                                     
                                         <div className="col-6 mt-3">
                                             <div className="d-grid">
                                                 <Link to="#" className="btn btn-soft-primary"><FaSquareFacebook className="mb-0"/> Facebook</Link>
@@ -71,6 +72,7 @@ export default function Login(){
                                                 <Link to="#" className="btn btn-soft-primary"><SlSocialGoogle className="mb-0"/> Google</Link>
                                             </div>
                                         </div>
+                                        */}
 
                                         <div className="col-12 text-center">
                                             <p className="mb-0 mt-3"><small className="text-dark me-2">Don't have an account ?</small> <Link to="/signup" className="text-dark fw-bold">Sign Up</Link></p>
